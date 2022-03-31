@@ -4,6 +4,19 @@ html {
 
 .container {
     display: grid;
-    grid-template-columns: 0.5, 3fr, 0.5fr;
-    grid-template-rows: 200px, 500px,  100px, 100px, 100px;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-rows: 250px 435px 70px 70px 70px;
+    grid-gap: 10px;
 }
+
+
+.box5 {
+    background-color: lightgray;
+    
+}
+
+.box11 {
+    background-color: lightgrey;
+}
+
+
