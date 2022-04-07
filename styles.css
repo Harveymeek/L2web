@@ -1,5 +1,10 @@
 html {
     background-image: linear-gradient(white, white, rgba(3, 213, 255), rgba(3, 213, 255));
+
+}
+
+a:hover {
+    color: grey;
 }
 
 .container {
@@ -24,7 +29,7 @@ html {
     grid-row: 5/4;
     grid-column: 2/2;
     border: 10px solid black;
-  
+
 }
 
 .box3 {
@@ -54,6 +59,10 @@ nav {
 }
 
 nav a {
-    margin: 0px 20px;
+    margin: 0px 70px;
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+
 
 }
