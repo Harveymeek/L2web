@@ -47,9 +47,10 @@ nav {
     background-color: lightgray;
     align-self: center;
     justify-self: center;
-    width: 50%;
+    width: 100%;
     text-align: center;
     padding: 20px 10px;
+    border: 10px solid black;
 }
 
 nav a {
