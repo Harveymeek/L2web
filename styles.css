@@ -78,3 +78,17 @@ nav a {
     grid-column: 2/3;
     height: 400px;
 }
+
+
+.text {
+    justify-self: center;
+}
+
+h1 {
+    font-size: 50px;
+    justify-self: center;
+}
+
+h2 {
+    font-size: 25px;
+}
