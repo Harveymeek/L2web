@@ -3,6 +3,15 @@ html {
 
 }
 
+@font-face {
+    font-family: myFont;
+    src: url(fonts/Valorant\ Font.ttf);
+}
+
+html {
+    font-family: myFont;
+}
+
 a:hover {
     color: grey;
 }
