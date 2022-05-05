@@ -28,6 +28,9 @@ a:hover {
 }
 
 .box2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px;
     background-color: lightgrey;
     grid-row: 5/4;
     grid-column: 2/2;
@@ -91,4 +94,25 @@ h1 {
 
 h2 {
     font-size: 25px;
+}
+
+.text2 {
+    align-self: top;
+    font-size: 30px;
+    justify-self: center;
+    align-self: center;
+}
+
+.text3 {
+    align-self: top;
+    font-size: 30px;
+    justify-self: center;
+    align-self: center;
+}
+
+.text4 {
+    align-self: top;
+    font-size: 16px;
+    justify-self: center;
+    align-self: center;
 }
