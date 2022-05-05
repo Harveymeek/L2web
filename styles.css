@@ -125,3 +125,11 @@ h2 {
     justify-self: center;
     align-self: center;
 }
+
+.grey {
+    color:grey;
+}
+
+.white {
+    color: white;
+}
