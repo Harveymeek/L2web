@@ -7,7 +7,7 @@ html {
     font-family: myFont;
     src: url(fonts/Valorant\ Font.ttf);
 }
-
+  
 html {
     font-family: myFont;
 }
@@ -23,6 +23,11 @@ a:hover {
     grid-gap: 10px;
 }
 
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-rows: 300px 500px;
+}
 
 .box1 {
     display: grid;
