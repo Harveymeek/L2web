@@ -37,6 +37,7 @@ a:hover {
     grid-column: 3/2;
     border: 10px solid black;
     padding: 10px;
+    box-shadow: 5px 10px 20px;
 
 
 }
@@ -49,6 +50,7 @@ a:hover {
     grid-row: 5/4;
     grid-column: 2/2;
     border: 10px solid black;
+    box-shadow: 5px 10px 20px;
 
 }
 
@@ -77,6 +79,7 @@ nav {
     text-align: center;
     padding: 20px 10px;
     border: 10px solid black;
+    box-shadow: 5px 10px 20px;
 }
 
 nav a {
@@ -148,12 +151,17 @@ h2 {
     grid-row: 2/2;
 }
 
+.box5>div {
+    box-shadow: 5px 10px 20px;
+}
+
 .d1 {
     grid-column: 1/2;
     background-color: lightgrey;
     border: 10px solid black;
     margin-left: 20px;
     margin-right: 20px;
+
 }
 
 .d2 {
