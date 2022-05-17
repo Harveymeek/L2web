@@ -1,13 +1,12 @@
 html {
     background-image: linear-gradient(white, white, rgba(3, 213, 255), rgba(3, 213, 255));
-
 }
 
 @font-face {
     font-family: myFont;
     src: url(fonts/Valorant\ Font.ttf);
 }
-  
+
 html {
     font-family: myFont;
 }
@@ -38,8 +37,6 @@ a:hover {
     border: 10px solid black;
     padding: 10px;
     box-shadow: 5px 10px 20px;
-
-
 }
 
 .box2 {
@@ -60,7 +57,7 @@ a:hover {
     grid-template-rows: 1fr 1fr 1fr;
     grid-row: 1/2;
     grid-column: 2/3;
-    
+
 }
 
 .logo {
@@ -136,7 +133,7 @@ h2 {
 }
 
 .grey {
-    color:grey;
+    color: grey;
 }
 
 .white {
@@ -161,7 +158,16 @@ h2 {
     border: 10px solid black;
     margin-left: 20px;
     margin-right: 20px;
+}
 
+.d1>h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.d1>h2 {
+    font-size: 20px;
+    text-align: center;
 }
 
 .d2 {
@@ -172,11 +178,33 @@ h2 {
     margin-right: 20px;
 }
 
+.d2>h1 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.d2>h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
 .d3 {
     background-color: lightgrey;
     border: 10px solid black;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.d3>h1 {
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+}
+
+.d3>h2 {
+    font-size: 20px;
+    text-align: center;
 }
 
 .p1 {
