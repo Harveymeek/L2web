@@ -8,10 +8,49 @@
     </head>
 
     <body>
+
+
+
+
         <div class="container2">
             <div class="box27">
+                <div class="calc">
+                    <div class="calc">
 
-                
+                        <h4>Waist to Shoulder Length in cm Size Calculator</h4>
+
+                        <input type="number" name="size" id="sizeData" value="50">
+
+                        <button type="submit" onclick="calculate()">Submit</button>
+
+                        <p3 id="answer"></p3>
+
+                    </div>
+                    <script>
+                        function calculate() {
+
+                            var data = document.getElementById("sizeData").value;
+
+                            if (data < 35) {
+
+                                document.getElementById("answer").innerHTML = "Your size is Small";
+
+                            } else if (data > 45) {
+
+                                document.getElementById("answer").innerHTML = "Your size is a Large";
+
+                            } else {
+
+                                document.getElementById("answer").innerHTML = "Your size is a Medium";
+
+                            }
+
+                        }
+                    </script>
+
+
+                </div>
+
             </div>
             <div class="box3">
                 <img src="images/logo4.png" class="logo">
