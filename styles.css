@@ -31,7 +31,7 @@ a:hover {
 .container2 {
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
-    grid-template-rows: 250px 500px;
+    grid-template-rows: 300px 500px;
 }
 
 .box1 {
@@ -236,4 +236,11 @@ h2 {
 
 .counter {
     justify-self: center;
+}
+
+.box27 {
+    grid-column: 2/2;
+    grid-row: 2/2;
+    background-color: lightgrey;
+    border: 10px solid black;
 }
